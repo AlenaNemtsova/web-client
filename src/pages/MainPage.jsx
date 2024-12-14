@@ -9,7 +9,7 @@ const MainPage = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('/data.json')
+        fetch(`${import.meta.env.BASE_URL}data.json`)
             .then((response) => response.json())
             .then((data) => setData(data))
             .catch((error) => console.error('Error fetching data:', error));

@@ -1,0 +1,93 @@
+.tournament__item {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(55, 51, 82, 1);
+  border-radius: 4px;
+  overflow: hidden;
+
+  .left-column {
+    flex-shrink: 0;
+    padding: 3px 9px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    background-color: rgba(0, 187, 64, 1);
+
+    &_grey {
+      background-color: rgba(94, 90, 121, 1);
+    }
+  }
+
+  .right-column {
+    flex-grow: 1;
+    padding: 8px;
+  }
+
+  .center-block {
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .badges {
+    margin-bottom: 9px;
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+  }
+
+  .type {
+    font-size: 8px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .name {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .button {
+    max-width: 80px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 187, 64, 1);
+    border-radius: 4px;
+
+    &_grey {
+      color: rgba(255, 255, 255, 0.3);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .bottom-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .time {
+    margin-right: 30px;
+  }
+
+  .players {
+    flex-basis: 20%;
+  }
+
+  .prizePool {
+    flex-basis: 20%;
+  }
+}

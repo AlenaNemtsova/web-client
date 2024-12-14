@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "OFC Pineapple",
+    "type": "NL 2-7 TRIPLE DRAW",
+    "status": "REGISTERING",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 1000,
+      "max": 1000
+    },
+    "prizePool": 1000000
+  },
+  {
+    "id": 2,
+    "name": "OFC Pineapple",
+    "type": "NL HOLDEM",
+    "status": "REGISTERING",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 1,
+      "max": 6
+    },
+    "prizePool": 100
+  },
+  {
+    "id": 3,
+    "name": "Hourly Freeroll",
+    "type": "NL OFC/PINEAPPLE PRG",
+    "status": "CANCELED",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 1,
+      "max": 10000
+    },
+    "prizePool": 1000
+  },
+  {
+    "id": 4,
+    "name": "Rapid Tournament",
+    "type": "PL OMAHA H/L",
+    "status": "CANCELED",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 0,
+      "max": 0
+    },
+    "prizePool": 1000000
+  },
+  {
+    "id": 5,
+    "name": "PL Omaha Knockout",
+    "type": "NL 6 CARDS OMAHA H/L",
+    "status": "CANCELED",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 0,
+      "max": 100
+    },
+    "prizePool": 146
+  },
+  {
+    "id": 6,
+    "name": "OFC Pineapple",
+    "type": "NL 2-7 TRIPLE DRAW",
+    "status": "REGISTERING",
+    "time": "12:00 pm, 28 July",
+    "players": {
+      "current": 1000,
+      "max": 1000
+    },
+    "prizePool": 1000000
+  }
+]
